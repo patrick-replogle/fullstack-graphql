@@ -3,5 +3,87 @@
     "id": "jBWMVGjm50l6LGwepDoty",
     "username": "frontendmaster"
   },
-  "pet": []
+  "pet": [
+    {
+      "id": "kdio2k32kemd",
+      "type": "dog",
+      "name": "ralph",
+      "createdAt": "39kdkdkdskds"
+    },
+    {
+      "id": "kdio2k32kdfmd",
+      "type": "cat",
+      "name": "george",
+      "createdAt": "39kdkd3434kdskds"
+    },
+    {
+      "id": "kdio2kdfdf32kdfmd",
+      "type": "dog",
+      "name": "frank",
+      "createdAt": "39kdkd3dfd434kdskds"
+    },
+    {
+      "id": "CSEUwTKH1eO80bsl3eDqh",
+      "createdAt": 1584649113370,
+      "name": "bruce",
+      "type": "DOG",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "sPD5PhoJq8akGa8wirV8h",
+      "createdAt": 1584649164029,
+      "name": "hello",
+      "type": "DOG",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "1uwbuPvYRsbnT4oo8BfUB",
+      "createdAt": 1584649194022,
+      "name": "a",
+      "type": "DOG",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "aoR_kDlNb3DqQschTcu1N",
+      "createdAt": 1584650612270,
+      "name": "Farts",
+      "type": "DOG",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "CpXZGIrZvtf6exsBPphEy",
+      "createdAt": 1584650637595,
+      "name": "Butt Nugget",
+      "type": "CAT",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "6hlXlPYVDtNbxdjeXnDg9",
+      "createdAt": 1584656904100,
+      "name": "ddd",
+      "type": "DOG",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "YJFak14FJ8jJnqZosfKHZ",
+      "createdAt": 1584656969095,
+      "name": "a",
+      "type": "DOG",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "qppDDZLDgx6WMVmKCLE3W",
+      "createdAt": 1584656996874,
+      "name": "z",
+      "type": "DOG",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "5JlTNcwWotXzMK0jzBSGF",
+      "createdAt": 1584657057353,
+      "name": "betsy",
+      "type": "CAT",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    }
+  ]
 }

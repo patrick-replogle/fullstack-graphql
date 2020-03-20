@@ -7,7 +7,9 @@ const App = () => (
   <Fragment>
     <Header />
     <div>
-      <Switch>{/* <Route exact path="/" component={Pets} /> */}</Switch>
+      <Switch>
+        <Route exact path="/" component={Pets} />
+      </Switch>
     </div>
   </Fragment>
 );
