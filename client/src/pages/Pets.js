@@ -5,30 +5,6 @@ import NewPet from "../components/NewPet";
 import { useQuery, useMutation } from "@apollo/react-hooks";
 import Loader from "../components/Loader";
 
-// this is also optional, but a way to clean up graphql
-// code that you will be reusing a lot
-// const PETS_FIELDS = gql`
-//   fragment PetsFields on Pet {
-//     id
-//     name
-//     type
-//     img
-//     owner {
-//       id
-//       age @client
-//     }
-//   }
-// `;
-
-// how to use fragments in a query
-// const ALL_PETS = gql`
-//   query AllPets {
-//     pets {
-//       ${PETS_FIELDS}
-//     }
-//   }
-// `;
-
 const ALL_PETS = gql`
   query AllPets {
     pets {
@@ -58,11 +34,36 @@ const NEW_PET = gql`
   }
 `;
 
+// fragmnets are optional, but can be used to clean up graphql
+// code that you will be reusing
+// const PETS_FIELDS = gql`
+//   fragment PetsFields on Pet {
+//     id
+//     name
+//     type
+//     img
+//     vaccinated @client
+//     owner {
+//       id
+//       age @client
+//     }
+//   }
+// `;
+
+// how to use fragments in a query
+// const ALL_PETS = gql`
+//   query AllPets {
+//     pets {
+//       ...PetsFields
+//     }
+//   }
+//   ${PETS_FIELDS}
+// `;
+
 export default function Pets() {
   const [modal, setModal] = useState(false);
   // data loading and error are built in state that comes with useQuery
   const { data, loading, error } = useQuery(ALL_PETS);
-
   // newPet would contain the data, loading and error state within
   // useMutation can recieve a second object argument that can be used
   // to update the cache and rerender the state change within the component
