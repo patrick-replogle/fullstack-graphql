@@ -1,1 +1,22 @@
-{}
+{
+  "pet": [
+    {
+      "id": "kdio2k32kemd",
+      "type": "dog",
+      "name": "ralph",
+      "createdAt": "39kdkdkdskds"
+    },
+    {
+      "id": "kdio2k32kdfmd",
+      "type": "cat",
+      "name": "george",
+      "createdAt": "39kdkd3434kdskds"
+    },
+    {
+      "id": "kdio2kdfdf32kdfmd",
+      "type": "dog",
+      "name": "frank",
+      "createdAt": "39kdkd3dfd434kdskds"
+    }
+  ]
+}
